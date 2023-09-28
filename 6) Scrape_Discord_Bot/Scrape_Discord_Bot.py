@@ -204,12 +204,12 @@ scrape fonksiyonu botun bir web sitesinden veri kazımasını sağlayan bir komu
         # E-Posta Yapılandırılması
         smtp_server = 'smtp.gmail.com'
         smtp_port = 587
-        smtp_username = 'ortakallan@gmail.com'  # Gmail e-posta adresinizle değiştirin
-        smtp_password = 'iubq cogz nxyi nnqs'  # Oluşturulan uygulama parolanızla değiştirin
+        smtp_username = 'gönderici_mail@gmail.com'  # Gmail e-posta adresinizle değiştirin
+        smtp_password = 'uygulama_sifresi'  # Oluşturulan uygulama parolanızla değiştirin
         '''Ayrıca, e-posta göndermek için SMTP sunucusu, bağlantı noktası, kullanıcı adı ve parola ile e-posta yapılandırmasını ayarlar.'''
 
         # Alıcı e-posta adresleri
-        recipient_emails = ['fatih.821@outlook.com', 'yusuf.cinarci@gmail.com']  # Replace with your recipient email addresses
+        recipient_emails = ['alıcı_mail_adresi1@gmail.com', 'alıcı_mail_adresi2@gmail.com']  # Replace with your recipient email addresses
 
         '''Bu e-posta adreslerinin bir e-postanın alıcıları olması amaçlanmıştır. Açıklama # Alıcı e-posta adresleri sadece kodun amacını belirtmek için açıklayıcı bir yorumdur. 
         Çoklu e-posta adresleri ekleyerek birden fazla mail adresine gönderim yapılmaktadır.'''
@@ -258,4 +258,4 @@ async def shutdown(ctx):
 ctx: ctx parametresi "bağlam" anlamına gelir ve komutun çağrıldığı bağlamı temsil eder. Mesaj, mesajı gönderen kullanıcı, mesajın gönderildiği kanal vb. hakkında bilgi içerir.'''
 
 
-bot.run('MTE1NTA5OTQ1OTA1OTk5MDYzOA.GJzIOW.3J7agezBEXXFPoQjoxSl2qE2FqMZrriicLhGH8') # Discord botunun çalışması için run fonksiyonu kullanılır. Burada tırnak içerisine kendi bot token kodunuzu yapıştırmanız gerekir.
+bot.run('token') # Discord botunun çalışması için run fonksiyonu kullanılır. Burada tırnak içerisine kendi bot token kodunuzu yapıştırmanız gerekir.
