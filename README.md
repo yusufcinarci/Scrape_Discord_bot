@@ -1,5 +1,6 @@
 # Scrape_Discord_Bot
-![kapak](https://github.com/yusufcinarci/Scrape_Discord_bot/assets/77057546/348b6dc6-54c5-4c2e-a802-23b19a264ae2)
+
+![shine](https://github.com/yusufcinarci/Scrape_Discord_bot/assets/77057546/060d9783-168c-4745-8194-39b67d35fc6d)
 
 Bu proje, Python kullanarak oluşturulan bir Discord botunu içerir. Bot, belirli web sitelerinden veri kazıma işlemini otomatize eder ve Discord sunucusunda verilen komutlarla kazılmış olan verileri belirtilen mail adreslerine gönderir. 
 
